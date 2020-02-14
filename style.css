@@ -6,19 +6,19 @@ body {
 h1 {
   color: #e74c3c;
   margin-bottom: 0.8rem;
-}
-
-main {
-  margin: auto;
-  max-width: 50vw;
-  padding: 0.5rem;
   text-align: center;
 }
 
-nav {
+main {
   align-items: center;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  justify-content: center;
+  margin: 1rem auto;
+  max-width: 80vw;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 ul {
@@ -28,16 +28,6 @@ ul {
 
 li {
   margin-right: 1.6rem;
-}
-
-.container {
-  align-items: center;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  justify-content: center;
-  margin: auto;
-  padding: 1rem 0;
 }
 
 .card {
@@ -50,7 +40,7 @@ li {
   height: 15rem;
   margin: auto;
   overflow: hidden;
-  width: 15rem auto;
+  width: 15rem;
 }
 
 .card--avatar {
