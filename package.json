@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "browser-sync start --server --files '*.html, *.css, *.js'",
+    "serve": "parcel index.html",
     "db": "json-server -d 3000 --watch ./db.json"
   },
   "keywords": [],
