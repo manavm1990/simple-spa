@@ -56,11 +56,3 @@ li {
   margin-top: 0.5rem;
   text-transform: capitalize;
 }
-
-.card--link {
-  background: #db4938;
-  border-radius: 20px;
-  color: #fff;
-  padding: 0.3rem 1rem;
-  text-decoration: none;
-}
