@@ -1,0 +1,76 @@
+body {
+  background: #fdfdfd;
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  color: #e74c3c;
+  margin-bottom: 0.8rem;
+}
+
+main {
+  margin: auto;
+  max-width: 50vw;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 1.6rem;
+}
+
+.container {
+  align-items: center;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  justify-content: center;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.card {
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  margin: auto;
+  overflow: hidden;
+  width: 15rem auto;
+}
+
+.card--avatar {
+  height: 10rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card--title {
+  color: #222;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+}
+
+.card--link {
+  background: #db4938;
+  border-radius: 20px;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+}
