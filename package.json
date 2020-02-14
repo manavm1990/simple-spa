@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "browser-sync start --server --files '*.html, *.css, *.js'"
+    "serve": "browser-sync start --server --files '*.html, *.css, *.js'",
+    "db": "json-server -d 3000 --watch ./db.json"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-prettier": "^3.1.1",
+    "json-server": "^0.16.0",
     "prettier": "1.19.1",
     "stylelint": "^11.1.1",
     "stylelint-config-prettier": "^6.0.0",
